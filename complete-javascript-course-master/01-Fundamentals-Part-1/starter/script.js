@@ -171,20 +171,39 @@
 //     console.log('??')
 // }
 
-const day = 'wend2sday'
+// const day = 'wend2sday'
 
-switch(day) {
-    case'monday': // day === 'monday' strict mode
-        console.log('Plan course structure')
-        console.log('Go to coding meetup')
-        break;
-    case 'tuesday':
-        console.log('Go to grocery')
-        break
-    case 'wendsday':
-        console.log('Go to Dental')
-        break
+// switch(day) {
+//     case'monday': // day === 'monday' strict mode
+//         console.log('Plan course structure')
+//         console.log('Go to coding meetup')
+//         break;
+//     case 'tuesday':
+//         console.log('Go to grocery')
+//         break
+//     case 'wendsday':
+//         console.log('Go to Dental')
+//         break
 
-    default:
-        console.log('Not a valid day')
+//     default:
+//         console.log('Not a valid day')
+// }
+
+// const age = 21
+// const drink = age >= 18 ? 'wine' : 'water' ;
+
+// console.log(drink)
+
+//Coding Challeng #4
+
+const price = 333
+const tip = price> 50 && price< 300  ? price*0.15 : price* 0.2
+
+console.log(`The bill is $${price}, the tip was $${tip}, and the total value is $${tip+price}`)
+
+if (price> 50 && price< 300){
+    console.log((price*1.15).toFixed(0))
+}else{
+    console.log((price*1.2.toFixed(0)))
 }
+
