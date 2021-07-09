@@ -157,17 +157,34 @@
 // }
 
 
-const scoreDolphins = ((961+108+32)/3).toFixed(2) ;
-const scoreKoalas = ((961+108+32)/3).toFixed(2) ;
-console.log(scoreDolphins,scoreKoalas)
+// const scoreDolphins = ((961+108+32)/3).toFixed(2) ;
+// const scoreKoalas = ((961+108+32)/3).toFixed(2) ;
+// console.log(scoreDolphins,scoreKoalas)
 
-if (scoreDolphins > scoreKoalas && scoreDolphins>=100 ){
-    console.log('Dolphins won!')
-}else if( scoreKoalas > scoreDolphins && scoreKoalas>=100){
-    console.log(' Koalas won')
-}else if(scoreKoalas === scoreDolphins&& scoreKoalas>=100){
-    console.log(' Draw')
-}else{
-    console.log('??')
+// if (scoreDolphins > scoreKoalas && scoreDolphins>=100 ){
+//     console.log('Dolphins won!')
+// }else if( scoreKoalas > scoreDolphins && scoreKoalas>=100){
+//     console.log(' Koalas won')
+// }else if(scoreKoalas === scoreDolphins&& scoreKoalas>=100){
+//     console.log(' Draw')
+// }else{
+//     console.log('??')
+// }
+
+const day = 'wend2sday'
+
+switch(day) {
+    case'monday': // day === 'monday' strict mode
+        console.log('Plan course structure')
+        console.log('Go to coding meetup')
+        break;
+    case 'tuesday':
+        console.log('Go to grocery')
+        break
+    case 'wendsday':
+        console.log('Go to Dental')
+        break
+
+    default:
+        console.log('Not a valid day')
 }
-
