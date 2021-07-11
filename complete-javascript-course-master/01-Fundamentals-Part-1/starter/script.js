@@ -196,14 +196,14 @@
 
 //Coding Challeng #4
 
-const price = 333
-const tip = price> 50 && price< 300  ? price*0.15 : price* 0.2
+// const price = 333
+// const tip = price> 50 && price< 300  ? price*0.15 : price* 0.2
 
-console.log(`The bill is $${price}, the tip was $${tip}, and the total value is $${tip+price}`)
+// console.log(`The bill is $${price}, the tip was $${tip}, and the total value is $${tip+price}`)
 
-if (price> 50 && price< 300){
-    console.log((price*1.15).toFixed(0))
-}else{
-    console.log((price*1.2.toFixed(0)))
-}
+// if (price> 50 && price< 300){
+//     console.log((price*1.15).toFixed(0))
+// }else{
+//     console.log((price*1.2.toFixed(0)))
+// }
 
