@@ -1,5 +1,4 @@
-'use strict';
-
+"use strict";
 
 // function logger(hi){
 //     console.log(`${hi} "I'm june"`)
@@ -43,7 +42,6 @@
 
 //"Arrow function"
 
-
 // const calcAge3 = (birthYear) => 2021- birthYear;
 
 // console.log(calcAge3(1994))
@@ -55,7 +53,7 @@
 // }
 
 // const junCho = retirementYear(1994, 'Cho')
-// console.log(junCho) 
+// console.log(junCho)
 
 // function cutFruitPieces(fruit){
 //     return fruit*4
@@ -72,18 +70,14 @@
 // const fruitNumber = fruitProcessor(4,5)
 // console.log(fruitNumber)
 
-
 // const calcAge = function (birthYear){
 //     return 2021-birthYear;
 // }
 
-
-
-
 // const yearsUntilRetirement = function (birthYear,firstName){
 //     const age=calcAge(birthYear)
 //     const retirement = 65-age;
-    
+
 //     if(retirement>0){
 //         console.log(`${firstName} retires in ${retirement}`)
 //     return retirement;
@@ -99,12 +93,10 @@
 
 //coding Challege #1
 
-
 // const calcAverage = (a,b,c) => (a+b+c)/3;
 
 // const scoreDolhins = calcAverage(3,33,33)
 // const scoreKoalas = calcAverage(11,31,11)
-
 
 // const checkWinner = function(avgDolhins,avgKoalas){
 
@@ -136,7 +128,6 @@
 // console.log(years)
 // friends[1] = 'Martin2'
 
-
 // const calcAge = function (birthYear){
 //     return 2021 - birthYear
 // }
@@ -155,10 +146,9 @@
 // console.log(years.indexOf(1992))
 // console.log(years.includes(1991))
 
-
 // years.map(year =>(
 //     console.log(calcAge(year))
-    
+
 // ))
 
 // Coding Challege#2
@@ -221,7 +211,6 @@
 
 // console.log(`${jun['firstName']} has ${jun.friends.length}friends, his best friend is called ${jun.friends[0]}`)
 
-
 // const jun = {
 //     firstName:'Jun',
 //     lastName:'Cho',
@@ -230,14 +219,14 @@
 //     friends:['Hana','Nick','Antony'],
 //     hasDriverLicense:true,
 
-    // calcAge: function(birthYear){
-    //     return 2021 - birthYear;
-    // }
+// calcAge: function(birthYear){
+//     return 2021 - birthYear;
+// }
 
-    // calcAge: function(){
-    //     // console.log(this)
-    //     return 2021 - this.birthYear
-    // }
+// calcAge: function(){
+//     // console.log(this)
+//     return 2021 - this.birthYear
+// }
 
 //     calcAge: function(){
 //         this.age = 2021 - this.birthYear;
@@ -256,7 +245,7 @@
 
 // console.log(jun['calcAge'](1993))
 
-//Challege 
+//Challege
 //"Jun is a 46-year old teacher, and he has a driver '"
 
 // console.log(jun.getSummary())
@@ -270,13 +259,12 @@
 
 //     calcBMI: function(){
 //         this.bmi =this.mass/(this.height**2)
-//         return this.bmi 
+//         return this.bmi
 //     },
 //     getSummary:function(){
 //         return `${this.fullName}'s BMI is ${this.bmi}`
 //     },
 // }
-
 
 // console.log(jun.calcBMI())
 // console.log(jun.getSummary())
@@ -288,7 +276,7 @@
 
 //     calcBMI: function(){
 //         this.bmi =this.mass/(this.height**2)
-//         return this.bmi 
+//         return this.bmi
 //     },
 //     getSummary:function(){
 //         return `${this.fullName}'s BMI is ${this.bmi}`
@@ -299,18 +287,14 @@
 // console.log(hana)
 
 // console.log(hana.bmi)
-// console.log(hana.bmi>jun.bmi? `Hana's Bmi is Higer than (${hana.bmi})  Jun's (${jun.bmi}) `:`jun's Bmi is Higer (${jun.bmi}) than Hana's (${hana.bmi})`)    
-
-
+// console.log(hana.bmi>jun.bmi? `Hana's Bmi is Higer than (${hana.bmi})  Jun's (${jun.bmi}) `:`jun's Bmi is Higer (${jun.bmi}) than Hana's (${hana.bmi})`)
 
 // for loop keeps running while condition is True
 // for(let rep = 2; rep <= 12; rep++){
 //     console.log(`Lifting weights repetition ${rep} `)
 // }
 
-// 
-
-
+//
 
 // const bills = [22,295,176,440,37,105,10,1100,86,52]
 
@@ -330,11 +314,11 @@
 
 // console.log(bills,tips,totals)
 
-// const calcTip = function(bill){ 
-    
+// const calcTip = function(bill){
+
 //     return bill >=50 && bill <= 300 ? bill * 0.15:bill * 0.2;
 
-// } 
+// }
 
 // for(let rep =0 ; rep < bills.length  ; rep++ ){
 
@@ -342,29 +326,26 @@
 
 //     console.log(bills[rep],"bills")
 
-    
 //     tips.push(tip)
 
-//     totals.push(tip+bills[rep]) 
-    
+//     totals.push(tip+bills[rep])
+
 // }
 
 // console.log(bills,tips,totals)
 
-
 // const nums = [22,295,176,440,37,105,10,1100,86,52]
 
-const calcAverage = function(arr){
-    let sum = 0
-    for(let i = 0; i < arr.length; i++){
-        sum += arr[i];
-    }
-    console.log(sum)
-    return sum / arr.length
-    
-}
+const calcAverage = function (arr) {
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    sum += arr[i];
+  }
+  console.log(sum);
+  return sum / arr.length;
+};
 
-console.log(calcAverage([22,1100,86,52]))
+console.log(calcAverage([22, 1100, 86, 52]));
 
 // const calcAverage = function(arr){
 //     return  arr/nums.length
@@ -375,12 +356,9 @@ console.log(calcAverage([22,1100,86,52]))
 //     console.log(sum)
 // }
 
-
 // console.log(sum)
 // const finalCalc = calcAverage(sum)
 // console.log(finalCalc)
-
-
 
 // let arr = 0
 
@@ -397,6 +375,3 @@ console.log(calcAverage([22,1100,86,52]))
 //     }
 //     console.log(calcAverage())
 // }
-
-
-
